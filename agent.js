@@ -20,15 +20,12 @@ async function agent(query) {
 
     const MAX_ITERATIONS = 5
 
-    // for (let i = 0; i < MAX_ITERATIONS; i++) {
-    //     console.log(`Iteration #${i + 1}`)
     const response = await openai.chat.completions.create({
         model:"gemini-2.5-flash",
         messages,
         tools
     })
 
-    // const responseText = response.choices[0].message.content
     console.log(response.choices[0])
 }
 
