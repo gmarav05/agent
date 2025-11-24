@@ -1,0 +1,25 @@
+{
+  "name": "agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmarav05/agent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmarav05/agent/issues"
+  },
+  "homepage": "https://github.com/gmarav05/agent#readme",
+  "dependencies": {
+    "@google/genai": "^1.29.1",
+    "dotenv": "^17.2.3",
+    "openai": "^6.9.1"
+  }
+}
